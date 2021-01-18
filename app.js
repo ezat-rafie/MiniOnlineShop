@@ -2,7 +2,7 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const helmet = require('helmet');
+//const helmet = require('helmet');
 const compression = require('compression');
 
 const errorController = require('./controllers/error');
@@ -15,7 +15,7 @@ app.set('views', 'views');
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
-app.use(helmet());
+//app.use(helmet());
 app.use(compression());
 
 app.use(bodyParser.urlencoded({ extended: false }));
