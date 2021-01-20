@@ -113,7 +113,7 @@ form {
 .mobile-nav__item a:active,
 .mobile-nav__item a:hover,
 .mobile-nav__item a.active {
-  background: #00695c;
+  background:rgb(69, 192, 233);
   color: white;
   border-radius: 3px;
 }
@@ -134,8 +134,8 @@ form {
 
 #side-menu-toggle:active,
 #side-menu-toggle:hover {
-  color: #ffeb3b;
-  border-color: #ffeb3b;
+  color: rgb(69, 192, 233);
+  border-color: rgb(69, 192, 233);
 }
 
 .backdrop {
